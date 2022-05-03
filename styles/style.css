@@ -1,0 +1,180 @@
+@import url(./normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Cairo&family=Josefin+Sans:wght@500&family=Roboto+Slab&display=swap");
+:root {
+  --navbar-height:56px;
+  --page-max-width:1200px;
+}
+
+@media (max-width: 600px) {
+  .navbar-links-container {
+    display: none !important;
+  }
+  .home-header {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+
+body {
+  background: #282C34;
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  color: wheat;
+}
+
+#main {
+  position: relative;
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  inset: 0 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: var(--navbar-height);
+  width: 100%;
+  background: #21252B;
+}
+
+.navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: var(--navbar-height);
+  width: 100%;
+  max-width: var(--page-max-width);
+  margin: 0 2rem;
+}
+
+.navbar-links-container {
+  font-size: large;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-decoration: none;
+  color: #ff3300;
+  -webkit-animation: 1s backInLeft;
+          animation: 1s backInLeft;
+}
+
+.navbar-link {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar-link:hover {
+  -webkit-animation: tada;
+          animation: tada;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: var(--navbar-height);
+  width: 100%;
+  max-width: var(--page-max-width);
+}
+
+.home-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.home-header-avatar {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-header-avatar img {
+  border-radius: 5px;
+}
+
+.home-header-about {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-header-about code {
+  font-size: 1.1em;
+  line-height: 2;
+  font-weight: 600;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: var(--navbar-height);
+  color: rgba(128, 128, 128, 0.39);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.39);
+}
+/*# sourceMappingURL=style.css.map */
