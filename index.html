@@ -17,6 +17,11 @@
             <div class="navbar-container">
                 <a href="/#" class="navbar-logo">Jan Przyborowski</a>
                 <div  class="navbar-links-container">
+                    <div class="mobile-menu">
+                        <a href="#mobile-menu-modal">
+                            <img src="/src/menu_icon.png" alt="">
+                        </a>
+                    </div>
                     <a href="/#" class="navbar-link">Home</a>
                     <a href="/portfolio/" class="navbar-link">Portfolio</a>
                     <a href="/contact/" class="navbar-link">Contact</a>
@@ -31,7 +36,7 @@
                 <aside class="home-header-about">
                     <span>Hi, Welcome to my website!</span>
                     <span>Jan Przyborowski</span>
-                    <code>Frontend Developer</code>
+                    <span id="proffesion">Frontend Developer</span>
                 </aside>
             </header>
         </div>
@@ -40,6 +45,16 @@
             <a href="https://github.com/rudyalbinos" target="_blank">Github</a>
             </span>
         </footer>
+        <div id="mobile-menu-modal" class="modal">
+            <div class="modal_content">
+                <div class="modal-links-container">
+                    <a href="/#" class="modal-link">Home</a>
+                    <a href="/portfolio/" class="modal-link">Portfolio</a>
+                    <a href="/contact/" class="modal-link">Contact</a>
+                </div>
+                <a href="#" class="modal__close">&times;</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

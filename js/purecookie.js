@@ -5,7 +5,6 @@ var purecookieLink = '<a href="https://policies.google.com/privacy" target="_bla
 var purecookieButton = "Zrozumiano"; // Button text
 // ---        --- //
 
-
 function pureFadeIn(elem, display){
   var el = document.getElementById(elem);
   el.style.opacity = 0;

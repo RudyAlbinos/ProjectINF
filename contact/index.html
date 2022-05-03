@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <script src="/js/purecookie.js" async></script>
+    <script src="/js/timer.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8520104371380650"
      crossorigin="anonymous"></script>
     <title>Jan Przyborowski</title>
@@ -17,6 +18,11 @@
             <div class="navbar-container">
                 <a href="/#" class="navbar-logo">Jan Przyborowski</a>
                 <div  class="navbar-links-container">
+                    <div class="mobile-menu">
+                        <a href="#mobile-menu-modal">
+                            <img src="/src/menu_icon.png" alt="">
+                        </a>
+                    </div>
                     <a href="/#" class="navbar-link">Home</a>
                     <a href="/portfolio/" class="navbar-link">Portfolio</a>
                     <a href="/contact/" class="navbar-link">Contact</a>
@@ -24,9 +30,26 @@
             </div>
         </nav>
         <div class="content">
-            <header class="home-header">
-
+            <header class="home-header" style="flex-direction: column;">
+                <h1>Work In Progress...</h1>
+                <p id="timer" style="font-size:30px"></p>
+                <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
             </header>
+        </div>
+        <footer class="footer">
+            <span>Copyright &copy; 2022 Jan Przyborowski
+            <a href="https://github.com/rudyalbinos" target="_blank">Github</a>
+            </span>
+        </footer>
+        <div id="mobile-menu-modal" class="modal">
+            <div class="modal_content">
+                <div class="modal-links-container">
+                    <a href="/#" class="modal-link">Home</a>
+                    <a href="/portfolio/" class="modal-link">Portfolio</a>
+                    <a href="/contact/" class="modal-link">Contact</a>
+                </div>
+                <a href="#" class="modal__close">&times;</a>
+            </div>
         </div>
     </div>
 </body>
