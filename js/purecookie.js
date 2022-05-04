@@ -1,8 +1,8 @@
 // --- Config --- //
-var purecookieTitle = "🍪Ciasteczka🍪"; // Title
-var purecookieDesc = "Korzystając z tej strony, automatycznie akceptujesz, że używamy plików cookie."; // Description
-var purecookieLink = '<a href="https://policies.google.com/privacy" target="_blank">Dlaczego?</a>'; // Cookiepolicy link
-var purecookieButton = "Zrozumiano"; // Button text
+var purecookieTitle = "🍪Cookies🍪"; // Title
+var purecookieDesc = "This website uses cookies to ensure you get the best experience on our website."; // Description
+var purecookieLink = '<a href="https://policies.google.com/privacy" target="_blank">Learn more</a>'; // Cookiepolicy link
+var purecookieButton = "Got it!"; // Button text
 // ---        --- //
 
 function pureFadeIn(elem, display){

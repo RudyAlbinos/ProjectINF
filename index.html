@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <script src="/js/purecookie.js" async></script>
+    <script src="/js/jquery-3.6.0.min.js"></script>
     <title>Jan Przyborowski</title>
 </head>
 <body>
@@ -47,6 +48,7 @@
         </footer>
         <div id="mobile-menu-modal" class="modal">
             <div class="modal_content">
+                <div class="modal-header">Jan Przyborowski</div>
                 <div class="modal-links-container">
                     <a href="/#" class="modal-link">Home</a>
                     <a href="/portfolio/" class="modal-link">Portfolio</a>
@@ -56,5 +58,13 @@
             </div>
         </div>
     </div>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+          $(window).on("load",function(){
+            $(".loader-wrapper").delay(300).fadeOut("slow");
+          });
+      </script>
 </body>
 </html>
