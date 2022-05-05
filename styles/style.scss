@@ -35,6 +35,9 @@ html {
   .home-header {
     flex-direction: column !important;
   }
+  .home-header-avatar {
+    margin: 0 !important;
+  }
 }
 /*--------------------------------------------------------------------------- */
 /* BODY & PAGE */
@@ -109,7 +112,6 @@ body {
   display: grid;
   grid-auto-flow: row;
   gap: 1rem;
-  padding: 1rem;
   margin: 0 auto;
   margin-top: var(--navbar-height);
   width: 100%;
