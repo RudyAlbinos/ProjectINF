@@ -1,1 +1,1 @@
-# rudyalbinos.github.io
+# egzaminy.net.pl
