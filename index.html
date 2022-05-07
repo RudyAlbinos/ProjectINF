@@ -8,13 +8,14 @@
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <script src="/js/purecookie.js" async></script>
     <script src="/js/jquery-3.6.0.min.js"></script>
-    <title>Jan Przyborowski</title>
+    <script src="/js/loader.js"></script>
+    <title>Egzaminy.net.pl</title>
 </head>
 <body>
     <div id="main">
         <nav class="navbar">
             <div class="navbar-container">
-                <a href="/#" class="navbar-logo">Jan Przyborowski</a>
+                <a href="/#" class="navbar-logo">Egzaminy.net.pl</a>
                 <div  class="navbar-links-container">
                     <div class="mobile-menu">
                         <a href="#mobile-menu-modal">
@@ -22,27 +23,36 @@
                         </a>
                     </div>
                     <a href="/#" class="navbar-link">Home</a>
-                    <a href="/portfolio/" class="navbar-link">Portfolio</a>
-                    <a href="/contact/" class="navbar-link">Contact</a>
+                    <a href="/egzaminy/" class="navbar-link">Egzaminy</a>
+                    <a href="/kontakt/" class="navbar-link">Kontakt</a>
                 </div>
             </div>
         </nav>
         <div class="content">
             <header class="home-header">
                 <div class="home-header-avatar">
-                    <img src="/src/logo.jpg" alt="avatar">
+                    <img src="/src/exam.png" alt="avatar">
                 </div>
                 <aside class="home-header-about">
-                    <span>Hi, Welcome to my website!</span>
-                    <span>Jan Przyborowski</span>
-                    <span id="proffesion">Frontend Developer</span>
+                    <span>Witamy na</span>
+                    <span id="proffesion">Egzaminy.net.pl</span>
                 </aside>
             </header>
+            <div class="news">
+                <h1>Aktualności</h1>
+                <div class="news-container">
+                    <ul>
+                        <li><a href="#">Strona dostępna oficjalnie dla wszystkich!</a><span class="data">27 maja 2022</span></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <footer class="footer">
-            <span>Copyright &copy; 2022 Jan Przyborowski
-                <span data-tooltip="Click me!" data-flow="top">
-            <a href="https://github.com/rudyalbinos" target="_blank">Github</a>
+            <span>Copyright &copy; 2022 Jan Przyborowski Łukasz Bombała
+                <span data-tooltip="Kliknij mnie!" data-flow="bottom">
+            <a href="https://github.com/RudyAlbinos/ProjectINF" target="_blank">Github</a>
         </span>
             </span>
         </footer>
@@ -60,10 +70,5 @@
     <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
       </div>
-      <script>
-          $(window).on("load",function(){
-            $(".loader-wrapper").delay(300).fadeOut("slow");
-          });
-      </script>
 </body>
 </html>
