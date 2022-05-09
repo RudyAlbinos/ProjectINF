@@ -32,6 +32,7 @@ $box-shadow-navbar-color:rgb(110, 110, 112);
   }
   .home-header {
     flex-direction: column !important;
+    text-align: center;
   }
   .home-header-avatar {
     margin: 0 !important;
@@ -156,7 +157,7 @@ body {
   background-color: $navbar-color;
   border-radius: 5px;
   max-width: 60vw;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 0 0 5px black;
 }
 .news-container ul li {
   list-style: square;
@@ -208,9 +209,9 @@ body {
   bottom: 30px;
   right: 30px;
   display: none;
+  box-shadow: 0 0 5px black;
 }
 .cookieConsentContainer .cookieTitle a {
-  font-family: OpenSans, arial, "sans-serif";
   color: $accent-color;
   font-size: 25px;
   line-height: 20px;
@@ -219,7 +220,6 @@ body {
 .cookieConsentContainer .cookieDesc p {
   margin: 0;
   padding: 0;
-  font-family: OpenSans, arial, "sans-serif";
   color: #ffffff;
   font-size: 13px;
   line-height: 23px;
@@ -227,13 +227,11 @@ body {
   margin-top: 10px;
 }
 .cookieConsentContainer .cookieDesc a {
-  font-family: OpenSans, arial, "sans-serif";
   color: #ffffff;
   text-decoration: underline;
 }
 .cookieConsentContainer .cookieButton a {
   display: inline-block;
-  font-family: OpenSans, arial, "sans-serif";
   color: #ffffff;
   font-size: 14px;
   font-weight: bold;
@@ -254,6 +252,7 @@ body {
     bottom: 0px !important;
     left: 0px !important;
     width: 100% !important;
+    box-shadow: 0 -5px 5px -5px black;
   }
 }
 /*--------------------------------------------------------------------------- */
