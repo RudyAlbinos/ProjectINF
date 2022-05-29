@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<?php
+//egzamin
+  require_once 'dbconnect.php';
+
+  $db = SQL::getInstance();
+?>
+<?php
+  setcookie("sesja", "CiastkoLogowania", time() - 3600);
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +17,6 @@
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <script src="/js/purecookie.js" async></script>
     <script src="/js/jquery-3.6.0.min.js"></script>
-    <script src="/js/timer.js"></script>
     <script src="/js/loader.js"></script>
     <title>Egzaminy.net.pl</title>
 </head>
@@ -31,10 +39,8 @@
         </nav>
         <div class="content">
             <header class="home-header" style="flex-direction: column;">
-                <h1>Work In Progress...</h1>
-                <p id="timer" style="font-size:30px"></p>
-                <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-            </header>
+            
+          </header>
         </div>
         <footer class="footer">
             <span>Copyright &copy; 2022 Jan Przyborowski Łukasz Bombała

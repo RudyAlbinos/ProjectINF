@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<?php
+  require_once 'dbconnect.php';
+
+  $db = SQL::getInstance();
+?>
+<?php
+  setcookie("sesja", "CiastkoLogowania", time() - 3600);
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +16,6 @@
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <script src="/js/purecookie.js" async></script>
     <script src="/js/jquery-3.6.0.min.js"></script>
-    <script src="/js/timer.js"></script>
     <script src="/js/loader.js"></script>
     <title>Egzaminy.net.pl</title>
 </head>
@@ -30,11 +37,39 @@
             </div>
         </nav>
         <div class="content">
-            <header class="home-header" style="flex-direction: column;">
-                <h1>Work In Progress...</h1>
-                <p id="timer" style="font-size:30px"></p>
-                <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            <header class="home-header">
+                <div class="home-header-avatar">
+                    <img src="/src/exam.png" alt="avatar">
+                </div>
+                <aside class="home-header-about">
+                    <span>Witamy na</span>
+                    <span id="proffesion">Egzaminy.net.pl</span>
+                </aside>
             </header>
+            <div class="news">
+                <h1>Aktualności</h1>
+                <div class="news-container">
+                    <ul>
+                        <?php
+                          $query = "SELECT * FROM `Aktualnosci` ORDER BY id DESC LIMIT 10";
+                          $stmt = $db->dbh->prepare($query);
+                          $stmt->execute();
+                          $output = $stmt->fetchAll();
+                          if(!empty($output))
+                          {
+                            foreach ($output as $row)
+                            {
+                              echo "<li>" . "<a>" . $row['Tekst'] . "</a><span class=\"data\">" . $row['Data'] . "</span></li>";
+                            }
+                          }
+                          else
+                          {
+                            echo "Błąd komunikacji z bazą danych";
+                          }
+                        ?>
+                    </ul>
+                </div>
+            </div>
         </div>
         <footer class="footer">
             <span>Copyright &copy; 2022 Jan Przyborowski Łukasz Bombała

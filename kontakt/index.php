@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <script src="/js/purecookie.js" async></script>
     <script src="/js/jquery-3.6.0.min.js"></script>
-    <script src="/js/loader.js"></script>
     <title>Egzaminy.net.pl</title>
 </head>
 <body>
@@ -30,24 +29,20 @@
         </nav>
         <div class="content">
             <header class="home-header">
-                <div class="home-header-avatar">
-                    <img src="/src/exam.png" alt="avatar">
-                </div>
-                <aside class="home-header-about">
-                    <span>Witamy na</span>
-                    <span id="proffesion">Egzaminy.net.pl</span>
-                </aside>
+                <h1>Skontaktuj się z nami</h1>
             </header>
-            <div class="news">
-                <h1>Aktualności</h1>
-                <div class="news-container">
-                    <ul>
-                        <li><a href="#">Strona dostępna oficjalnie dla wszystkich!</a><span class="data">27 maja 2022</span></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-            </div>
+        </div>
+        <div class="contact-form">
+                <form class="contact-header" action="https://getform.io/f/cd832102-3d3b-4124-833b-1de26ff20cd7" method="POST">
+                    <label for="imie">Imię</label>
+                    <input type="text" id="imie" name="Imię" placeholder="Imię..." required>
+                    <label for="emial">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="E-mail..." required>
+                    <label for="wiadomosc">Wiadomość</label>
+                    <textarea type="text" id="wiadomosc" name="Wiadomość" placeholder="Wiadomość..." required></textarea>
+                    <button type="submit">Wyślij</button>
+                </form>
+            </header>
         </div>
         <footer class="footer">
             <span>Copyright &copy; 2022 Jan Przyborowski Łukasz Bombała
@@ -66,9 +61,6 @@
                 <a href="#" class="modal__close">&times;</a>
             </div>
         </div>
-    </div>
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
     </div>
 </body>
 </html>

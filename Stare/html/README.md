@@ -1,0 +1,1 @@
+# egzaminy.net.pl
