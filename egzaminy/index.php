@@ -41,6 +41,7 @@
             <header class="home-header" style="flex-direction: column;">
             </header>
             <div class="exam-container">
+              <div class="exam-title"><h2>EE.08 / INF.02</h2></div>
                     <ul>
                       <?php
                       //egzamin

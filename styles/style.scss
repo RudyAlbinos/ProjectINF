@@ -6,7 +6,7 @@ $background-color: #2c3047;
 $navbar-color: #22223b;
 $font-color: wheat;
 $accent-color: #e9451d;
-$accent-light:#e4846c;
+$accent-light:#cf6348;
 $footer-font-color: rgba(128, 128, 128, 0.39);
 $box-shadow-navbar-color:rgb(110, 110, 112);
 /*--------------------------------------------------------------------------- */
@@ -174,13 +174,21 @@ body {
 .exam-container {
   margin: 0 auto;
   font-size: 1.2rem;
-  padding: 2rem 2rem 2rem 0;
+  padding: 2rem;
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232c3047' fill-opacity='0.28' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   background-color: $navbar-color;
   border-radius: 5px;
   min-width: 60vw;
   max-width: 80vh;
   box-shadow: 0 0 5px black;
+}
+.exam-title {
+  margin-top: -1rem;
+  color: $accent-light;
+}
+.exam-title h2 {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid;
 }
 textarea {
   max-height: 400px;
