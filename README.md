@@ -1,5 +1,5 @@
 # egzaminy.net.pl
 
-Copyright Jan Przyborowski Łukasz Bombała Krzysztof Jeżewski
+*Copyright Jan Przyborowski Łukasz Bombała Krzysztof Jeżewski*
 
 ### Założenia projektowe
