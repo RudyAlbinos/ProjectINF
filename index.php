@@ -72,7 +72,7 @@
             </div>
         </div>
         <footer class="footer">
-            <span>Copyright &copy; 2022 Jan Przyborowski Łukasz Bombała
+            <span>Copyright &copy; 2022 Jan Przyborowski Łukasz Bombała Krzysztof Jeżewski
                 <span data-tooltip="Kliknij mnie!" data-flow="bottom">
             <a href="https://github.com/RudyAlbinos/ProjectINF" target="_blank">Github</a>
         </span>
