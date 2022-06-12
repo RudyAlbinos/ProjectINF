@@ -1,4 +1,4 @@
-# **[Założenia projektowe]( https://github.com/RudyAlbinos/ProjectINF#zakładka-home)**
+# **Założenia projektowe**
 Założeniem, dla którego powstała strona [egzaminy.net.pl](https://egzaminy.net.pl//) jest przedstawienie oraz udokumentowanie umiejętności w zakresie tworzenia stron internetowych przez założycieli.
 ## **Zakładka _[Home]( https://egzaminy.net.pl/#)_**
 Strona główna obrazuje umiejętności ***stworzenia przejrzystej*** oraz ***graficznie przystępnej*** formy strony dla użytkownika, mając na uwadze komfort użytkowania na każdym urządzeniu. Przedstawia zdolność ***umieszczania obrazów*** oraz ich ***animacji***, dodatkowo ***tworzenia odnośników i aktualności***.
