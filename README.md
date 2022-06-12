@@ -15,7 +15,7 @@ W zakładce ***Egzaminy*** znajdują się prace dotyczące egzaminu zawodowego z
 - Zamiana systemu ósemkowego na binarny
 - Zamiana systemu dziesiętnego na szesnastkowy
 Każda z wymienionych pozycji ***przenosi do strony***, na której znajduje się ***wyjaśnienie*** wspominanego tematu ***z przykładami***.
-```
+
 ## **Zakładka _Kontakt_**
 
 Można na niej znaleźć ***funkcjonujący formularz*** umożliwiający w dogodnej formie kontakt z założycielami strony. 
