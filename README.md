@@ -17,7 +17,7 @@ Założeniem, dla którego powstała strona [egzaminy.net.pl](https://egzaminy.n
 ## **Zakładka _[Home]( https://egzaminy.net.pl/#)_**
 Strona główna zawiera ***przejrzystą*** oraz ***graficznie przystępną*** formę strony dla użytkownika, mając na uwadze komfort użytkowania na każdym urządzeniu. Znajdująca się na niej tabela "Aktualnośći" może być w łatwy sposób edytowana za pomocą panelu administracyjnego.
 ## **Zakładka _[Egzaminy]( https://egzaminy.net.pl/egzaminy/)_**
-W zakładce ***Egzaminy*** (na dzień 12.06.2022) znajdują się objaśnienia dotyczące zagadnień egzaminu zawodowego z kwalifikacjami ***EE.08 / INF.02***. W jego skład wchodzą:
+W zakładce ***Egzaminy*** (na dzień 12.06.2022) znajdują się objaśnienia dotyczące zagadnień egzaminu zawodowego z kwalifikacji ***EE.08 / INF.02***. W jego skład wchodzą:
 - Zamiana systemu binarnego na dziesiętny
 - Obliczanie adresów sieciowych ze stałą maską
 - Dzielenie sieci na podsieci
