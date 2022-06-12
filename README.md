@@ -1,6 +1,6 @@
 # **Założenia projektowe**
 
-Założeniem, dla którego powstała strona [egzaminy.net.pl](https://egzaminy.net.pl//) jest przedstawienie oraz udokumentowanie umiejętności  w zakresie tworzenia stron internetowych przez założycieli.
+Założeniem, dla którego powstała strona [egzaminy.net.pl](https://egzaminy.net.pl//) jest przedstawienie oraz udokumentowanie umiejętności w zakresie tworzenia stron internetowych przez założycieli.
 
 ## **Zakładka _Home_**
 
