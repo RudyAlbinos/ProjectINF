@@ -51,4 +51,6 @@ Brana jest również pod uwagę rozbudowa oraz przebudowa strony.
 
 Można na niej znaleźć funkcjonujący formularz umożliwiający w zwięzłej i przystępnej formie kontakt z twórcami strony.
 
-Copyright Jan Przyborowski Łukasz Bombała Krzysztof Jeżewski
+
+
+### **Copyright Jan Przyborowski Łukasz Bombała Krzysztof Jeżewski wszelkie prawa zastrzeżone**
