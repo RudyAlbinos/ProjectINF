@@ -6,7 +6,7 @@ class SQL
   private function __construct()
   {
     $dsn = 'mysql:host=localhost;dbname=index;port=3306;connect_timeout=10';
-    $user = 'root';
+    $user = 'admin';
     $password = 'bhN6@4ba';
     $this->dbh = new PDO($dsn, $user, $password);
   }

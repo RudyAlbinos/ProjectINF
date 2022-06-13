@@ -51,7 +51,7 @@
                 <div class="news-container">
                     <ul>
                         <?php
-                          $query = "SELECT * FROM `Aktualnosci` ORDER BY id DESC LIMIT 10";
+                          $query = "SELECT * FROM `Aktualnosci` ORDER BY id";
                           $stmt = $db->dbh->prepare($query);
                           $stmt->execute();
                           $output = $stmt->fetchAll();

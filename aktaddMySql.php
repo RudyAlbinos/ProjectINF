@@ -17,6 +17,7 @@
     $stmt = $db->dbh->prepare($query);
     $stmt->execute();
     $stmt->commit();
-
-    header("Refresh: 0; where.php");
+  ?>
+  <?php
+    header("Refresh: 5; where.php");
   ?>
