@@ -6,11 +6,11 @@ Założeniem, dla którego powstała strona [egzaminy.net.pl](https://egzaminy.n
 
 ## Technologie
 
-- HTML
-- SCSS
-- PHP
-- MYSQL
-- JAVASCRIPT
+- ![](https://iili.io/h1UEj2.png) HTML
+- ![](https://iili.io/h1UkTQ.png) SCSS
+- ![](https://iili.io/h1UvjV.png) PHP
+- ![](https://iili.io/h1g0cg.png) MYSQL
+- ![](https://iili.io/h1gWtp.png) JAVASCRIPT
 
 ## Funkcje
 ### Panel administracyjny
@@ -49,7 +49,7 @@ Brana jest również pod uwagę rozbudowa oraz przebudowa strony.
 
 ## **Zakładka _[Kontakt]( https://egzaminy.net.pl/kontakt/)_**
 
-Można na niej znaleźć funkcjonujący formularz umożliwiający w zwięzłej i przystępnej formie kontakt z twórcami strony.
+Można na niej znaleźć ***funkcjonujący formularz*** umożliwiający w zwięzłej i przystępnej formie kontakt z twórcami strony.
 
 
 
